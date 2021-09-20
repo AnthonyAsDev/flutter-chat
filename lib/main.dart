@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Chat App',
-      initialRoute: "chat",
+      initialRoute: "usuarios",
       routes: appRoutes,
     );
   }
