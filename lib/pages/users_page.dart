@@ -14,9 +14,10 @@ class _UsersPageState extends State<UsersPage> {
       RefreshController(initialRefresh: false);
 
   final usuarios = [
-    Usuario(online: true, email: "test1@test.com", nombre: "maria", uid: "1"),
-    Usuario(online: true, email: "test2@test.com", nombre: "anthony", uid: "2"),
-    Usuario(online: false, email: "test3@test.com", nombre: "smith", uid: "3"),
+    Usuario(online: true, email: "test1@test.com", nombre: "maria", uuid: "1"),
+    Usuario(
+        online: true, email: "test2@test.com", nombre: "anthony", uuid: "2"),
+    Usuario(online: false, email: "test3@test.com", nombre: "smith", uuid: "3"),
   ];
 
   @override
